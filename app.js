@@ -13,7 +13,9 @@ const app = express();
 // Process JSON input and put the data on req.body
 app.use(express.json());
 
-const sequelize = new Sequelize(process.env.DATABASE_URL);
+const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite::memory' : process.env.DATABASE_URL;
+const sequelize = new Sequelize(DATABASE_URL);
+
 
 // Process FORM intput and put the data on req.body
 app.use(express.urlencoded({ extended: true }));
