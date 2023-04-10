@@ -5,12 +5,12 @@ const { app } = require('../src/server');
 const request = supertest(app);
 
 describe('Auth Login/Logout', () => {
-  it('sholud create a new user', async () => {
-    const response = (await request.post('/signup')).setEncoding({
+  it('able create a new user', async () => {
+    const response = await request.post('/signup').send({
       username: 'RyanBagan21',
-      password: PeaceWalker*@21,
+      password: 'PeaceWalker21',
     });
     console.log (response.body);
-    expect(resppnse.username).toBe('RyanBagan21');
+    expect(response.username).toBe('RyanBagan21');
   });
 });
