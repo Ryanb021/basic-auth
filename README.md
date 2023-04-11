@@ -125,3 +125,8 @@ Additionally, you are required to write automated tests as well:
 ## Assignment Submission Instructions
 
 Refer to the the [Submitting Standard Node.js Lab Submission Instructions](../../../reference/submission-instructions/labs/node-apps.md) for the complete lab submission process and expectations.
+
+## UML Lab 06
+
+![Lab 6 UML](https://user-images.githubusercontent.com/120413183/231052625-c098e62a-bf75-455e-9aa9-d174ec82e340.png)
+
