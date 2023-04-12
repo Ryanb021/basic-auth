@@ -130,3 +130,6 @@ Refer to the the [Submitting Standard Node.js Lab Submission Instructions](../..
 
 ![Lab 6 UML](https://user-images.githubusercontent.com/120413183/231052625-c098e62a-bf75-455e-9aa9-d174ec82e340.png)
 
+## Deployed Server Link on Render:
+
+- In progress. Still failing deployment.
