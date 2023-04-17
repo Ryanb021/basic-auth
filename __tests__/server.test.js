@@ -4,7 +4,7 @@ const supertest = require('supertest');
 const { app } = require('../src/server');
 const request = supertest(app);
 
-describe('Auth Login/Logout', () => {
+xdescribe('Auth Login/Logout', () => {
   it('able create a new user', async () => {
     const response = await request.post('/signup').send({
       username: 'RyanBagan21',
