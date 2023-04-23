@@ -132,4 +132,4 @@ Refer to the the [Submitting Standard Node.js Lab Submission Instructions](../..
 
 ## Deployed Server Link on Render:
 
-- In progress. Still failing deployment.
+- https://the-dark-knight-basic-auth.onrender.com
